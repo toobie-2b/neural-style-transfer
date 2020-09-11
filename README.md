@@ -19,9 +19,9 @@ To run the use ```main.py``` with the following arguments:
 > ```--style```: Path/Link to the style image  
 > ```--result```: Path to where the result image is to be saved  
 > ```--size``` (optional, default= 512px max): The desired resolution for the generated image  
-> ```--steps``` (optional, default= 4000): Number of iterations on the image
-> ```--alpha`` (optional, default= 1): Weight for the content loss  
-> ```--beta`` (optional, default= 100): Weight for the style loss  
+> ```--steps``` (optional, default= 4000): Number of iterations on the image  
+> ```--alpha``` (optional, default= 1): Weight for the content loss  
+> ```--beta``` (optional, default= 100): Weight for the style loss  
 > ```--lr``` (optional, default= 0.003): The Learning Rate of the optimizer  
 > ```--device``` (optional, default= _cpu_): The device on which the model is supposed to carry out the style transfer  
   
