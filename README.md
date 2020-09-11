@@ -22,7 +22,7 @@ To run the use ```main.py``` with the following arguments:
 > ```--steps``` (optional, default= 4000): Number of iterations on the image
 > ```--alpha`` (optional, default= 1): Weight for the content loss  
 > ```--beta`` (optional, default= 100): Weight for the style loss  
-> ```--lr``` (optional, default= 0.003): The Learning Rate of the optimizer
+> ```--lr``` (optional, default= 0.003): The Learning Rate of the optimizer  
 > ```--device``` (optional, default= _cpu_): The device on which the model is supposed to carry out the style transfer  
   
 For those who want to tinker with the layers which are chosen for the feature extraction or use some different weights for style layers head over to ```layers.py``` and make the changes.   
